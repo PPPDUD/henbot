@@ -1,3 +1,2 @@
 # henbot
-Unapproved changes for Henbot.
-May contain malware or bugs.
+An AI assistant that YOU can improve too!
