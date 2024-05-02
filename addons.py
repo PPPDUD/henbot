@@ -1,3 +1,6 @@
+del install_addons
+del install_addonsbeta
+
 def install_addons():
   print("Addons already installed!")
 
