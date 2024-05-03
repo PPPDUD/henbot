@@ -15,10 +15,10 @@ def addon_chatbot(prompt):
 # User-generated functions
 
 def complete_install():
-  print("Addons installed successfully!")
+  addon_print("Addons installed successfully!")
 
 def newinstall_addons():
-  print("Addons already installed!")
+  addon_print("Addons already installed!")
 
 new_responses = {"Install addons":newinstall_addons, "Install addons beta":newinstall_addons}
 
