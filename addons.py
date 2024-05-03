@@ -9,7 +9,7 @@ def addon_print(string=""):
 def addon_input(prompt=""):
   return input(prompt)
 
-def addon_chatbot(prompt);
+def addon_chatbot(prompt):
   chatbot(prompt)
 
 def complete_install():
