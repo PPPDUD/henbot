@@ -1,5 +1,5 @@
 import requests, json, random, wikipedia, warnings
-from tqdm import tqdm
+from tqdm import tqdm, trange
 
 warnings.filterwarnings("ignore")
 
