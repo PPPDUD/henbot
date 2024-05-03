@@ -12,6 +12,8 @@ def addon_input(prompt=""):
 def addon_chatbot(prompt):
   chatbot(prompt)
 
+# User-generated functions
+
 def complete_install():
   print("Addons installed successfully!")
 
