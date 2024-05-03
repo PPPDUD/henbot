@@ -1,6 +1,6 @@
 import requests, json, random, wikipedia, warnings
-from tqdm import tqdm, trange
-
+from tqdm import tqdm
+from spacy import *
 warnings.filterwarnings("ignore")
 
 version = 1.0
@@ -100,7 +100,7 @@ def chatbot(statement):
 
 print("Loading Henbot v1.0..")
 
-responses = {"Hello!":hello, "Hi":hello, "deprecated_mjprices":monero_price, "Get all commands":help_cmd, "Convert XMR to other currencies":monero_to_usd, "Generate a list of palindromes":pass_func, "Install addons":install_addons,\
+responses = {"Hello!":hello, "Hi":hello, "Get all commands":help_cmd, "Convert XMR to other currencies":monero_to_usd, "Generate a list of palindromes":pass_func, "Install addons":install_addons,\
 "Install addons beta":install_addonsbeta}
 
 import spacy
